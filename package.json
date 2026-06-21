@@ -10,7 +10,16 @@
     "test": "node test/test.js",
     "dirsize": "node src/cli.js"
   },
-  "keywords": ["directory", "size", "analyzer", "disk", "usage", "treemap", "cleanup", "cli"],
+  "keywords": [
+    "directory",
+    "size",
+    "analyzer",
+    "disk",
+    "usage",
+    "treemap",
+    "cleanup",
+    "cli"
+  ],
   "author": "sulthonzh",
   "license": "MIT",
   "repository": {
@@ -18,7 +27,16 @@
     "url": "https://github.com/sulthonzh/dirsize.git"
   },
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   },
-  "files": ["src/"]
+  "files": [
+    "src/"
+  ],
+  "homepage": "https://github.com/sulthonzh/dirsize",
+  "bugs": {
+    "url": "https://github.com/sulthonzh/dirsize/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
